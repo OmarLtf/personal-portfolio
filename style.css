@@ -1,0 +1,507 @@
+
+header {
+  color: #d8dcd8;
+  background-color: #080c14;
+  height: 40px;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+  flex-direction: row;
+  justify-content: end;
+}
+
+nav {
+  padding: 20px 30px 10px 30px;
+  font-size: 20px;
+}
+
+nav:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+nav:hover:after {
+  width: 100%;
+  background: #d8dcd8;
+}
+
+.first_look {
+  display: flex;
+  height: 600px;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom, #080c14, #09172a);
+}
+
+.image {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.welcome_div {
+  padding-top: 50px;
+  width: 600px;
+}
+section > div > h1 {
+  font-size: 70px;
+  color: #d8dcd8;
+}
+
+.wel_p {
+  color: #d8dcd8;
+  font-size: 25px;
+  margin-bottom: 200px;
+}
+b {
+  color: #0893cc;
+}
+
+.edu_title {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(24, 228, 255),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("blue-ring-wallpaper-preview.jpg");
+  background-attachment: fixed;
+  color: #d8dcd8;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 200px;
+}
+div.flex {
+  display: flex;
+  justify-content: center;
+}
+.education {
+  height: 850px;
+  background-image: url("blue-ring-wallpaper-preview.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bac,
+.fac {
+  color: #080c14;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 100px;
+  width: 350px;
+  height: 370px;
+  background: linear-gradient(110deg, #d8dcd8 60%, #b8bdb8 60%);
+  transition: 0.3s;
+  box-shadow: 0 0px 10px #03070a;
+}
+
+.bac:hover,
+.fac:hover {
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+.bac > h3,
+.fac > h3 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0px;
+  text-align: center;
+  border-bottom: #080c14;
+  color: #080c14;
+  background-color: #b8bdb8;
+  padding: 20px;
+}
+.description {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.year {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*--------------Skills-------------------*/
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(8, 12, 20) 50%,
+    rgba(9, 150, 255)
+  );
+  font-size: 40px;
+  background-attachment: fixed;
+}
+
+.prog_cont {
+  width: 450px;
+  height: 20px;
+  border-radius: 25px;
+  background-color: #060f1b;
+}
+.prog_bar {
+  height: 20px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(9, 150, 255) 50%,
+    rgba(0, 255, 108)
+  );
+  box-shadow: 0 0px 10px rgba(9, 150, 255, 0.5);
+  border-radius: 20px;
+}
+.skill > h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #d8dcd8;
+}
+
+button {
+  background: none;
+  font-size: 70px;
+  font-weight: bold;
+  height: 180px;
+  width: 300px;
+  color: #d8dcd8;
+  transition: 1s;
+  opacity: 0.6;
+  margin-left: 30px;
+}
+
+.border-gradient {
+  border: 15px solid;
+  border-image-slice: 1;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #0996ff, #00ff6c);
+}
+
+button:hover {
+  background-image: linear-gradient(to left, #0996ff, #00ff6c);
+  opacity: 1;
+}
+
+.prog_icon {
+  width: 100px;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.flex_con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
+
+.all_skills {
+  margin-right: 200px;
+}
+
+/* --------------------Certifications------------------ */
+
+.certifications > h1 {
+  background-image: linear-gradient(
+      to left bottom,
+      rgb(24, 228, 255),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("background2.jpg");
+  background-attachment: fixed;
+  color: #d8dcd8;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: 0px;
+  height: 200px;
+}
+
+.certifications {
+  background-image: url("background2.jpg");
+  height: 850px;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+
+.certif_butt1 > a,
+.certif_butt2 > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(110deg, #d8dcd8 60%, #b8bdb8 60%);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+.certif_butt1,
+.certif_butt2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.certif_butt1 > a:hover,
+.certif_butt2 > a:hover {
+  background-image: linear-gradient(
+    to left bottom,
+    rgb(24, 228, 255),
+    rgba(106, 14, 160, 0.822)
+  );
+  box-shadow: 0px 15px 20px rgba(3, 7, 10, 0.822);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.source {
+  font-size: 10px;
+}
+
+.club_logo {
+  width: 100px;
+  height: 100px;
+}
+
+.club_logoi {
+  width: 100px;
+}
+
+.social_life {
+  display: flex;
+  flex-direction: row;
+}
+
+.sl_life_description {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("background_social.png");
+  background-size: cover;
+  color: white;
+  width: 60%;
+  margin: 0px;
+  padding-top: 100px;
+  padding: 100px;
+}
+
+.clubs {
+  width: cover;
+  display: inline-block;
+  justify-content: center;
+  overflow: auto;
+  height: 500px;
+  width: 41%;
+  background-color: black;
+  margin: 0px;
+  margin-right: 0px;
+}
+
+.tunsa {
+  width: cover;
+  height: 300px;
+  text-align: center;
+}
+
+div.tunsa img {
+  width: 150px;
+  margin-top: 30px;
+}
+
+div.tunsa h3 {
+  font-size: 30px;
+}
+
+div.tunsa p {
+  font-size: 20px;
+}
+
+.tunsa1 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("tunsa_background1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.ieee {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("ieee_background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.electronix {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("electronix_background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.igc {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("igc_background.jfif");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.ajcc {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("ajcc_background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.amwej {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(6, 84, 192, 0.609),
+      rgba(9, 23, 42, 0.609)
+    ),
+    url("amwej_background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+div.tunsa p {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  height: 4px; /* height of horizontal scrollbar ← You're missing this */
+  width: 0px; /* width of vertical scrollbar */
+}
+
+.sl_life_description p {
+  font-size: 20px;
+}
+
+.contact div {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+
+  border-radius: 50%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.oter {
+  background-image: linear-gradient(to bottom, #09172a, #080c14);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d8dcd8;
+}
+
+.oter {
+  display: flex;
+  flex-direction: column;
+}
+
+.oter h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.facebook {
+  background-image: url("facebook_white.png");
+  background-size: cover;
+}
+
+.linkedin {
+  background-image: url("linkedin_white.png");
+  background-size: cover;
+}
+
+.github {
+  background-image: url("github_white1.png");
+  background-size: cover;
+}
+
+.logo {
+  width: 6px;
+  height: 6px;
+
+  margin: 10px;
+  padding: 20px;
+}
+
+.facebook:hover {
+  background-image: url("facebook_black.png");
+}
+.linkedin:hover {
+  background-image: url("linkedin_black.png");
+}
+.github:hover {
+  background-image: url("github_white.png");
+}
